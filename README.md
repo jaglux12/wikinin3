@@ -20,4 +20,3 @@ Alumnos de la carrera de "**Técnico superior en desarrollo de software**" y pú
 ## Colaboradores
 
 * [Jaglux12](https://github.com/jaglux12)
-* 

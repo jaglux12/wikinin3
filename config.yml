@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://wikinin3.netlify.app/"
 
 title: Wikinin3
 paginate: 5
@@ -17,14 +17,13 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
+  title: wikinin3
+  description: "Biblioteca de Software"
+  keywords: [Blog, Portfolio, PaperMod,Wikinin3,wiki,software,isp9,software]
+  author: [Jaglux12,GonzaloLopez]
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: false
@@ -53,29 +52,22 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Wikinin9"
+    text: "Wikinin3"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    enabled: true # needs to be explicitly set
+    title: Wikinin3
+    imageUrl: "img-perfil.png"
+    imageWidth: 100
+    imageHeight: 100
 
   # home-info mode
   homeInfoParams:
     Title: "Tec. superior en desarrollo de software"
-    Content: Blog oficial
+    Content: Biblioteca de Software
 
   socialIcons:
     - name: instagram
