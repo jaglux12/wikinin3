@@ -45,24 +45,26 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+    favicon16x16: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+    favicon32x32: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+    apple_touch_icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+    safari_pinned_tab: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
 
   label:
     text: "Wikinin3"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+    iconHeight: 30
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: Wikinin3
-    imageUrl: "img-perfil.png"
+    subtitle: "**Página oficial** de la carrera en **Técnico Superior en desarrollo de Software**. Tutoriales y noticias sobre tecnología."
+    imageUrl: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
     imageWidth: 100
     imageHeight: 100
+    imageTitle: fsdfsd
 
   # home-info mode
   homeInfoParams:
@@ -71,7 +73,7 @@ params:
 
   socialIcons:
     - name: instagram
-      url: "https://www.instagram.com/impulso_estudiantil22/"
+      url: "https://www.instagram.com/wikinin3/"
     - name: github
       url: "https://github.com/jaglux12/wikinin3"
 
@@ -103,19 +105,24 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
-    - identifier: categorias
-      name: Categorías
-      url: /categories/
+    - identifier: news
+      name: Noticias
+      url: /news/
       weight: 10
 
     - identifier: tags
-      name: Tags
+      name: Tópicos
       url: /tags/
-      weight: 20
+      weight: 10
+
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 0
       
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
