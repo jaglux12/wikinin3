@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://wikinin3.netlify.app/sitemap.xml
+Sitemap: https://wikinin3.vercel.app/sitemap.xml

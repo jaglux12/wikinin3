@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://wikinin3.netlify.app/posts/bienvenido/</loc>
+    <loc>https://wikinin3.vercel.app/posts/bienvenido/</loc>
     <lastmod>2023-04-22T11:59:52-03:00</lastmod>
   </url><url>
-    <loc>https://wikinin3.netlify.app/posts/</loc>
+    <loc>https://wikinin3.vercel.app/posts/</loc>
     <lastmod>2023-04-22T11:59:52-03:00</lastmod>
   </url><url>
-    <loc>https://wikinin3.netlify.app/</loc>
+    <loc>https://wikinin3.vercel.app/</loc>
     <lastmod>2023-04-22T11:59:52-03:00</lastmod>
   </url><url>
-    <loc>https://wikinin3.netlify.app/categories/</loc>
+    <loc>https://wikinin3.vercel.app/categories/</loc>
   </url><url>
-    <loc>https://wikinin3.netlify.app/tags/</loc>
+    <loc>https://wikinin3.vercel.app/tags/</loc>
   </url>
 </urlset>

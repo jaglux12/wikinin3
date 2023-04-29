@@ -1,4 +1,4 @@
-baseURL: "https://wikinin3.netlify.app/"
+baseURL: "https://wikinin3.vercel.app/"
 
 title:  Wikinin3
 paginate: 5
@@ -45,7 +45,7 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+    favicon: "https://i.postimg.cc/brJFG4mB/logo-webpage.png"
     favicon16x16: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
     favicon32x32: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
     apple_touch_icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
@@ -54,7 +54,7 @@ params:
   label:
     text: "Wikinin3"
     icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
-    iconHeight: 20
+    iconHeight: 30
 
   # profile-mode
   profileMode:
@@ -111,12 +111,12 @@ menu:
       weight: 10
 
     - identifier: tags
-      name: Tópicos
+      name: Tutoriales
       url: /tags/
       weight: 10
 
     - identifier: about
-      name: About
+      name: Sobre nosotros
       url: /about/
       weight: 0
       
