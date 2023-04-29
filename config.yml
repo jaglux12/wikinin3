@@ -1,6 +1,6 @@
 baseURL: "https://wikinin3.netlify.app/"
 
-title: Wikinin3
+title:  Wikinin3
 paginate: 5
 theme: PaperMod
 
@@ -54,28 +54,25 @@ params:
   label:
     text: "Wikinin3"
     icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
-    iconHeight: 30
+    iconHeight: 20
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Wikinin3
-    subtitle: "**Página oficial** de la carrera en **Técnico Superior en desarrollo de Software**. Tutoriales y noticias sobre tecnología."
-    imageUrl: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
-    imageWidth: 100
-    imageHeight: 100
+    title: Wikinin3 ⌨️
+    subtitle: "**Página oficial** de la carrera de **Técnico Superior en desarrollo de Software**. Tutoriales y noticias sobre tecnología 🖥️."
+    imageUrl: "https://i.postimg.cc/gcNF2wFS/MXfm.gif"
+    imageWidth: 150
+    imageHeight: 150
     imageTitle: fsdfsd
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Tec. superior en desarrollo de software"
-    Content: Biblioteca de Software
 
   socialIcons:
     - name: instagram
       url: "https://www.instagram.com/wikinin3/"
     - name: github
       url: "https://github.com/jaglux12/wikinin3"
+    - name: twitter
+      url: "https://twitter.com/wikinin3"
 
   analytics:
     google:
