@@ -20,7 +20,7 @@ params:
   title: wikinin3
   description: "Biblioteca de Software"
   keywords: [Blog, Portfolio, PaperMod,Wikinin3,wiki,software,isp9,software]
-  author: [Jaglux12,GonzaloLopez]
+  author: [Jaglux12,MauriParis]
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
