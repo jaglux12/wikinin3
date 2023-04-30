@@ -26,6 +26,7 @@ params:
   defaultTheme: dark # dark, light
   disableThemeToggle: false
 
+  copyright: "https://www.wikinin3.vercel.app/"
   ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -36,9 +37,10 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
-  hidemeta: false
+  comments: true
+  hidemeta: true
   hideSummary: false
+  hideFooter: false
   showtoc: false
   tocopen: false
 
@@ -58,13 +60,15 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: true
     title: Wikinin3 ⌨️
     subtitle: "**Página oficial** de la carrera de **Técnico Superior en desarrollo de Software**. Tutoriales y noticias sobre tecnología 🖥️."
+
     imageUrl: "https://i.postimg.cc/gcNF2wFS/MXfm.gif"
     imageWidth: 150
     imageHeight: 150
-    imageTitle: fsdfsd
+
+    imageTitle: Computadora retro
 
   socialIcons:
     - name: instagram
@@ -87,13 +91,6 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -116,7 +113,7 @@ menu:
       weight: 10
 
     - identifier: about
-      name: Sobre nosotros
+      name: Nosotros
       url: /about/
       weight: 0
       
