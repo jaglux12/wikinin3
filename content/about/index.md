@@ -27,7 +27,7 @@ UseHugoToc: true
 
 [Gonzalo Lopez](https://www.instagram.com/gonzalolopez3471/) - Director de tecnología.
 
-### Esparamos tu colaboración
+### Esperamos tu colaboración
 
 Te invitamos a formar parte de nuestro equipo de trabajo. Si tienes ideas que quieras compartir con nosotros, no dudes en enviarnos un mensaje directo a cualquiera de nuestras redes sociales ¡Los esperamos!
 

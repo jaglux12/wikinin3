@@ -9,21 +9,17 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
-
 minify:
   disableXML: true
-  minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: wikinin3
   description: "Biblioteca de Software"
   keywords: [Blog, Portfolio, PaperMod,Wikinin3,wiki,software,isp9,software]
   author: [Jaglux12,MauriParis]
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light
+  defaultTheme: dark 
   disableThemeToggle: false
 
   copyright: "https://www.wikinin3.vercel.app/"
@@ -33,7 +29,6 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: false
-  ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -102,20 +97,20 @@ params:
 
 menu:
   main:
-    - identifier: news
-      name: Noticias
-      url: /news/
-      weight: 10
-
-    - identifier: tags
-      name: Tutoriales
-      url: /tags/
+    - identifier: search
+      name: Buscar
+      url: search/
       weight: 10
 
     - identifier: about
       name: Nosotros
-      url: /about/
+      url: about
       weight: 0
+      
+    - identifier: posts
+      name: Artículos
+      url: archives
+      weight: 10
       
 pygmentsUseClasses: true
 markup:
