@@ -4,11 +4,6 @@
     <title>Categories on Wikinin3</title>
     <link>https://wikinin3.vercel.app/categories/</link>
     <description>Recent content in Categories on Wikinin3</description>
-    <image>
-      <title>Wikinin3</title>
-      <url>https://wikinin3.vercel.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://wikinin3.vercel.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://wikinin3.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

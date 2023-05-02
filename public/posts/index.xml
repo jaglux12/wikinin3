@@ -4,13 +4,17 @@
     <title>Posts on Wikinin3</title>
     <link>https://wikinin3.vercel.app/posts/</link>
     <description>Recent content in Posts on Wikinin3</description>
-    <image>
-      <title>Wikinin3</title>
-      <url>https://wikinin3.vercel.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://wikinin3.vercel.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 May 2023 19:53:10 -0300</lastBuildDate><atom:link href="https://wikinin3.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 19:55:47 -0300</lastBuildDate><atom:link href="https://wikinin3.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vscode Extensiones</title>
+      <link>https://wikinin3.vercel.app/posts/vscode-extensiones/</link>
+      <pubDate>Mon, 01 May 2023 19:55:47 -0300</pubDate>
+      
+      <guid>https://wikinin3.vercel.app/posts/vscode-extensiones/</guid>
+      <description>primeros pasos </description>
+    </item>
+    
     <item>
       <title>Vscode Primerospasos</title>
       <link>https://wikinin3.vercel.app/posts/vscode-primerospasos/</link>
