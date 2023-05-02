@@ -3,7 +3,6 @@ title: "Sobre nosotros"
 date: 2023-04-30T11:30:03+00:00
 ##tags: ["sobre nosotros","quienes somos"]
 author: "Wikinin3"
-draft: false
 
 disableHLJS: true 
 disableShare: false

@@ -1,123 +1,106 @@
-baseURL: "https://wikinin3.vercel.app/"
-
-title:  Wikinin3
+baseURL: "https://wikinin3.vercel.app"
+title: Wikinin3
 paginate: 5
 theme: PaperMod
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
 
 minify:
-  disableXML: true
-
-params:
-  title: wikinin3
-  description: "Biblioteca de Software"
-  keywords: [Blog, Portfolio, PaperMod,Wikinin3,wiki,software,isp9,software]
-  author: [Jaglux12,MauriParis]
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: dark 
-  disableThemeToggle: false
-
-  copyright: "https://www.wikinin3.vercel.app/"
-  ShowReadingTime: false
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: false
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: true
-  hidemeta: true
-  hideSummary: false
-  hideFooter: false
-  showtoc: false
-  tocopen: false
-
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "https://i.postimg.cc/brJFG4mB/logo-webpage.png"
-    favicon16x16: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
-    favicon32x32: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
-    apple_touch_icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
-    safari_pinned_tab: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
-
-  label:
-    text: "Wikinin3"
-    icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
-    iconHeight: 30
-
-  # profile-mode
-  profileMode:
-    enabled: true
-    title: Wikinin3 ⌨️
-    subtitle: "**Página oficial** de la carrera de **Técnico Superior en desarrollo de Software**. Tutoriales y noticias sobre tecnología 🖥️."
-
-    imageUrl: "https://i.postimg.cc/gcNF2wFS/MXfm.gif"
-    imageWidth: 150
-    imageHeight: 150
-
-    imageTitle: Computadora retro
-
-  socialIcons:
-    - name: instagram
-      url: "https://www.instagram.com/wikinin3/"
-    - name: github
-      url: "https://github.com/jaglux12/wikinin3"
-    - name: twitter
-      url: "https://twitter.com/wikinin3"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
+    disableXML: true
+    # minifyOutput: true
 menu:
   main:
-    - identifier: search
-      name: Buscar
+    - name: Nosotros
+      url: about/
+      weight: 0
+    - name: Artículos
+      url: archives
+      weight: 5
+    - name: Buscar
       url: search/
       weight: 10
-
-    - identifier: about
-      name: Nosotros
-      url: about
-      weight: 0
-      
-    - identifier: posts
-      name: Artículos
-      url: archives
+    - name: Etiquetas
+      url: tags/
       weight: 10
-      
-pygmentsUseClasses: true
+        
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Biblioteca de Software"
+    author: [Jaglux12,MauriParis]
+    defaultTheme: dark
+    ShowShareButtons: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: false
+    # comments: false
+
+    label:
+      text: "Wikinin3"
+      icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+      iconHeight: 30
+
+    profileMode:
+      enabled: true
+      title: Wikinin3 ⌨️
+      subtitle: "**Página oficial** de la carrera de **Técnico Superior en desarrollo de Software**. Tutoriales y noticias sobre tecnología 🖥️."
+      imageUrl: "https://i.postimg.cc/gcNF2wFS/MXfm.gif"
+      imageWidth: 150
+      imageHeight: 150
+      imageTitle: Computadora retro
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/jaglux12/wikinin3"
+        - name: instagram
+          url: "https://instagram.com/wikinin3"
+        - name: twitter
+          url: "https://twitter.com/wikinin3"
+
+    assets:
+        disableHLJS: true
+        favicon: "https://i.postimg.cc/brJFG4mB/logo-webpage.png"
+        favicon16x16: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+        favicon32x32: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+        apple_touch_icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+        safari_pinned_tab: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
+
 markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
