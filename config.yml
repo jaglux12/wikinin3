@@ -18,7 +18,7 @@ menu:
   main:
     - name: Nosotros
       url: about/
-      weight: 0
+      weight: 5
     - name: Artículos
       url: archives
       weight: 5
