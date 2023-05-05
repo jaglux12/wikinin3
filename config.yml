@@ -1,4 +1,4 @@
-baseURL: "https://wikinin3.vercel.app"
+baseURL: "https://wikinin3.vercel.app" 
 title: Wikinin3
 paginate: 5
 theme: PaperMod
@@ -10,38 +10,58 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
 
 minify:
     disableXML: true
     # minifyOutput: true
-menu:
-  main:
-    - name: Nosotros
-      url: about/
-      weight: 5
-    - name: Artículos
-      url: archives
-      weight: 5
-    - name: Buscar
-      url: search/
-      weight: 10
-    - name: Etiquetas
-      url: tags/
-      weight: 10
-        
+
+languages:
+    en:
+        languageName: "spanish"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Nosotros
+                  url: about/
+                  weight: 0
+                - name: Artículos
+                  url: archives
+                  weight: 5
+                - name: Buscar
+                  url: search/
+                  weight: 10
+                - name: Etiquetas
+                  url: tags/
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Biblioteca de Software"
-    author: [Jaglux12,MauriParis]
-    defaultTheme: dark
+    description: ""
+    author: Jaglux12
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
     ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
-    ShowToc: false
+    ShowToc: true
     # comments: false
 
     label:
@@ -58,6 +78,13 @@ params:
       imageHeight: 150
       imageTitle: Computadora retro
 
+    homeInfoParams:
+        Title: "PaperMod"
+        Content: >
+            Welcome to demo of hugo's theme PaperMod.
+            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+            - Do give a 🌟 on Github !
+            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
     socialIcons:
         - name: github
           url: "https://github.com/jaglux12/wikinin3"
@@ -65,6 +92,20 @@ params:
           url: "https://instagram.com/wikinin3"
         - name: twitter
           url: "https://twitter.com/wikinin3"
+
+    editPost:
+        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
 
     assets:
         disableHLJS: true
@@ -74,12 +115,31 @@ params:
         apple_touch_icon: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
         safari_pinned_tab: "https://i.postimg.cc/0QxSgmbf/img-perfil.png"
 
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
 markup:
     goldmark:
         renderer:
             unsafe: true
     highlight:
         noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
 
 privacy:
     vimeo:

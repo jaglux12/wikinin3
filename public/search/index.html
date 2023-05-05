@@ -8,7 +8,7 @@
 <title>Buscar | Wikinin3</title>
 <meta name="keywords" content="">
 <meta name="description" content="Buscar - Wikinin3">
-<meta name="author" content="Jaglux12, MauriParis">
+<meta name="author" content="Jaglux12">
 <link rel="canonical" href="https://wikinin3.vercel.app/search/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f1d0d495af8143b7877b733c40a0d3e8aafc2d3d426edc54247ea83f6b85ec66.css" integrity="sha256-8dDUla&#43;BQ7eHe3M8QKDT6Kr8LT1CbtxUJH6oP2uF7GY=" rel="preload stylesheet" as="style"><link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
 <script defer crossorigin="anonymous" src="/assets/js/search.9f0e020b4e6271e0fa29eb0697212c7dabef631c322621a9a0311d31faebf74d.js" integrity="sha256-nw4CC05iceD6KesGlyEsfavvYxwyJiGpoDEdMfrr900="></script>
@@ -24,6 +24,34 @@
         #theme-toggle,
         .top-link {
             display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
         }
 
     </style>
@@ -68,13 +96,10 @@
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
-  "author":[{
+  "author":{
     "@type": "Person",
     "name": "Jaglux12"
-  }, {
-    "@type": "Person",
-    "name": "MauriParis"
-  }],
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://wikinin3.vercel.app/search/"
@@ -91,10 +116,14 @@
 </script>
 </head>
 
-<body class="list dark" id="top">
+<body class="list" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
     }
 
 </script>
