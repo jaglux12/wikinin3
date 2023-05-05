@@ -3,16 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://wikinin3.vercel.app/posts/</loc>
-    <lastmod>2023-05-01T19:55:47-03:00</lastmod>
+    <lastmod>2023-05-04T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://wikinin3.vercel.app/posts/vscode-primerospasos/</loc>
+    <lastmod>2023-05-04T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://wikinin3.vercel.app/tags/</loc>
+    <lastmod>2023-05-04T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://wikinin3.vercel.app/tags/vscode/</loc>
+    <lastmod>2023-05-04T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://wikinin3.vercel.app/</loc>
+    <lastmod>2023-05-04T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://wikinin3.vercel.app/posts/vscode-extensiones/</loc>
     <lastmod>2023-05-01T19:55:47-03:00</lastmod>
-  </url><url>
-    <loc>https://wikinin3.vercel.app/</loc>
-    <lastmod>2023-05-01T19:55:47-03:00</lastmod>
-  </url><url>
-    <loc>https://wikinin3.vercel.app/posts/vscode-primerospasos/</loc>
-    <lastmod>2023-05-01T19:53:10-03:00</lastmod>
   </url><url>
     <loc>https://wikinin3.vercel.app/about/</loc>
     <lastmod>2023-04-30T11:30:03+00:00</lastmod>
@@ -23,6 +29,6 @@
   </url><url>
     <loc>https://wikinin3.vercel.app/archives/</loc>
   </url><url>
-    <loc>https://wikinin3.vercel.app/tags/</loc>
+    <loc>https://wikinin3.vercel.app/series/</loc>
   </url>
 </urlset>

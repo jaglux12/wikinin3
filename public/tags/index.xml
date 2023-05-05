@@ -4,6 +4,16 @@
     <title>Tags on Wikinin3</title>
     <link>https://wikinin3.vercel.app/tags/</link>
     <description>Recent content in Tags on Wikinin3</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wikinin3.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 04 May 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://wikinin3.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vscode</title>
+      <link>https://wikinin3.vercel.app/tags/vscode/</link>
+      <pubDate>Thu, 04 May 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://wikinin3.vercel.app/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

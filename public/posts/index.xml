@@ -5,7 +5,16 @@
     <link>https://wikinin3.vercel.app/posts/</link>
     <description>Recent content in Posts on Wikinin3</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 May 2023 19:55:47 -0300</lastBuildDate><atom:link href="https://wikinin3.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://wikinin3.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primeros pasos - VSCode</title>
+      <link>https://wikinin3.vercel.app/posts/vscode-primerospasos/</link>
+      <pubDate>Thu, 04 May 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://wikinin3.vercel.app/posts/vscode-primerospasos/</guid>
+      <description>Hola a todos, bienvenidos de nuevo a nuestro blog personal de wikinin3.</description>
+    </item>
+    
     <item>
       <title>Vscode Extensiones</title>
       <link>https://wikinin3.vercel.app/posts/vscode-extensiones/</link>
@@ -13,15 +22,6 @@
       
       <guid>https://wikinin3.vercel.app/posts/vscode-extensiones/</guid>
       <description>primeros pasos </description>
-    </item>
-    
-    <item>
-      <title>Vscode Primerospasos</title>
-      <link>https://wikinin3.vercel.app/posts/vscode-primerospasos/</link>
-      <pubDate>Mon, 01 May 2023 19:53:10 -0300</pubDate>
-      
-      <guid>https://wikinin3.vercel.app/posts/vscode-primerospasos/</guid>
-      <description>segundos pasos </description>
     </item>
     
   </channel>

@@ -16,7 +16,10 @@ minify:
     disableXML: true
     # minifyOutput: true
 
-
+taxonomies:
+          category: categories
+          tag: tags
+          series: series
 menu:
   main:
                 - name: Nosotros
@@ -53,7 +56,7 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
+    ShowRssButtonInSectionTermList: false
     ShowToc: true
     # comments: false
 
@@ -82,19 +85,6 @@ params:
         - name: twitter
           url: "https://twitter.com/wikinin3"
 
-    editPost:
-        URL: "https://github.com/jaglux12/wikinin3/tree/master/content"
-        Text: "Sugerir cambios" # edit text
-        appendFilePath: true # to append file path to Edit link
-
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
 
     assets:
         disableHLJS: true
