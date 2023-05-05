@@ -16,16 +16,9 @@ minify:
     disableXML: true
     # minifyOutput: true
 
-languages:
-    en:
-        languageName: "spanish"
-        weight: 1
-        taxonomies:
-          category: categories
-          tag: tags
-          series: series
-        menu:
-            main:
+
+menu:
+  main:
                 - name: Nosotros
                   url: about/
                   weight: 0
@@ -47,7 +40,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: ""
+    description: "Blog de tecnología"
     author: Jaglux12
     # author: ["Me", "You"] # multiple authors
 
@@ -80,11 +73,7 @@ params:
 
     homeInfoParams:
         Title: "PaperMod"
-        Content: >
-            Welcome to demo of hugo's theme PaperMod.
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-            - Do give a 🌟 on Github !
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+        Content: "Blog de la carrera en Técnico superior en desarrollo de software"
     socialIcons:
         - name: github
           url: "https://github.com/jaglux12/wikinin3"
@@ -94,8 +83,8 @@ params:
           url: "https://twitter.com/wikinin3"
 
     editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
+        URL: "https://github.com/jaglux12/wikinin3/tree/master/content"
+        Text: "Sugerir cambios" # edit text
         appendFilePath: true # to append file path to Edit link
 
     # label:
