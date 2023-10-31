@@ -50,14 +50,14 @@ params:
     defaultTheme: auto
     # disableThemeToggle: true
     ShowShareButtons: true
-    ShowReadingTime: true
+    ShowReadingTime: false
     # disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: false
-    ShowToc: true
+    ShowToc: false
     # comments: false
 
     label:
